@@ -13,7 +13,7 @@ namespace ConsoleApplication4
         public string name;
 
         public Woman()
-            {
+        {
             cat1 = new Cat();
             cat1.name = "Жиробас";
             cat1.weight = 15;
@@ -23,7 +23,7 @@ namespace ConsoleApplication4
             cat2.name = "Федька";
             cat2.weight = 5;
             cat2.favFood = "курица";
-            }
+        }
 
         public void TellMeAboutYourself()
         {

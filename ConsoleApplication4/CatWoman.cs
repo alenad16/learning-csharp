@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cat
+namespace ConsoleApplication4
 {
     class Cat
     {
-        string name;
-        int weight;
-        string favFood;
+        public string name;
+        public int weight;
+        public string favFood;
 
         public Cat()
         {

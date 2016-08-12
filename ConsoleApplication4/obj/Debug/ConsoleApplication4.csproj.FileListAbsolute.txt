@@ -4,3 +4,9 @@ c:\users\alena\documents\visual studio 2015\Projects\ConsoleApplication4\Console
 c:\users\alena\documents\visual studio 2015\Projects\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.csprojResolveAssemblyReference.cache
 c:\users\alena\documents\visual studio 2015\Projects\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
 c:\users\alena\documents\visual studio 2015\Projects\ConsoleApplication4\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
+C:\Users\Alena\Documents\projects\learning-csharp\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+C:\Users\Alena\Documents\projects\learning-csharp\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+C:\Users\Alena\Documents\projects\learning-csharp\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
+C:\Users\Alena\Documents\projects\learning-csharp\ConsoleApplication4\obj\Debug\ConsoleApplication4.csprojResolveAssemblyReference.cache
+C:\Users\Alena\Documents\projects\learning-csharp\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+C:\Users\Alena\Documents\projects\learning-csharp\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
