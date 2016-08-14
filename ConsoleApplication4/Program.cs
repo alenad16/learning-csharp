@@ -12,6 +12,7 @@ namespace ConsoleApplication4
         {
             var Nataha = new Woman();
             Nataha.name = "Наташка";
+           
             Nataha.TellMeAboutYourself();
         }
     }

@@ -8,33 +8,39 @@ namespace ConsoleApplication4
 {
     class Woman
     {
+        Cat[] Cats;
         Cat cat1;
         Cat cat2;
         public string name;
 
         public Woman()
         {
-            cat1 = new Cat();
-            cat1.name = "Жиробас";
-            cat1.weight = 15;
-            cat1.favFood = "рыба";
+            
+            var cat1 = new Cat("Жиробас", 15, "рыба");
+          
+            var cat2 = new Cat("Федька", 5,"курица");
 
-            cat2 = new Cat();
-            cat2.name = "Федька";
-            cat2.weight = 5;
-            cat2.favFood = "курица";
+           
+            Cats = new Cat[]{ cat1, cat2 };
+         
         }
 
         public void TellMeAboutYourself()
         {
-            Console.WriteLine($"Привет, меня зовут {name}, хочешь,я расскажу тебе про моих котиков?");
+
+            for (int i = 0; i < Cats.Length; i++)
+            {
+                Console.WriteLine($"Одного из котиков зовут {Cats[i].name}, он весит целых {Cats[i].weight}, а кушать любит {Cats[i].favFood}");
+                Console.ReadLine();
+            }
+           /* Console.WriteLine($"Привет, меня зовут {name}, хочешь,я расскажу тебе про моих котиков?");
             Console.ReadLine();
-            Console.WriteLine($"Первого котика зовут {cat1.name}, о такой милаха, весит {cat1.weight} килограммов и еле передвигает своими жирными лапками");
-            Console.WriteLine($"Почему он такой жирный? Потому что жрет много {cat1.favFood}");
+            Console.WriteLine($"Первого котика зовут {Cats[0].name}, о такой милаха, весит {Cats[0].weight} килограммов и еле передвигает своими жирными лапками");
+            Console.WriteLine($"Почему он такой жирный? Потому что жрет много {Cats[0].favFood}");
             Console.ReadLine();
-            Console.WriteLine($"А второго котика зовут {cat2.name}, я его не очень люблю, поэтому он весит всего {cat2.weight} килогаммов ");
-            Console.WriteLine($"Что он любит есть? Да хрен его знает, вроде {cat2.favFood}");
-            Console.ReadLine();
+            Console.WriteLine($"А второго котика зовут {Cats[1].name}, я его не очень люблю, поэтому он весит всего {Cats[1].weight} килогаммов ");
+            Console.WriteLine($"Что он любит есть? Да хрен его знает, вроде {Cats[1].favFood}");
+            Console.ReadLine();*/
         }
     }
 }

@@ -12,8 +12,12 @@ namespace ConsoleApplication4
         public int weight;
         public string favFood;
 
-        public Cat()
+        
+        public Cat(string name, int weight, string favFood)
         {
+            this.name = name;
+            this.weight = weight;
+            this.favFood = favFood;
         }
     }
 }
